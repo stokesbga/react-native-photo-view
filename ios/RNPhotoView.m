@@ -313,7 +313,7 @@
                                         size:CGSizeZero
                                        scale:1
                                      clipped:YES
-                                  resizeMode:RCTResizeModeStretch
+                                  resizeMode:RCTResizeModeContain
                                progressBlock:^(int64_t progress, int64_t total) {
                                    if (_onPhotoViewerProgress) {
                                        _onPhotoViewerProgress(@{
